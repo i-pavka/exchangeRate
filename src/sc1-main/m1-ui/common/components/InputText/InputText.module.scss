@@ -1,0 +1,37 @@
+.superInput,
+input::placeholder {
+  font-size: 20px;
+  color: var(--color-heading-1);
+}
+
+.superInput {
+  height: 40px;
+  width: 300px;
+  margin: 5px 0;
+  padding: 0 5px;
+  background: var(--color-bg-2);
+  border: 1px solid #9f9f9f;
+  border-radius: 5px;
+}
+
+.superInput:focus {
+  box-shadow: var(--box-shadow-10);
+  outline: none;
+}
+
+.errorInput {
+  border: 2px solid red;
+}
+
+.error {
+  color: red;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+input::placeholder {
+  opacity: 0.6;
+}

@@ -1,0 +1,42 @@
+.navbarMain,
+.navbarList,
+.navItem {
+  display: flex;
+}
+
+.headerMain {
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  background: var(--color-surface-1);
+  .navbarMain {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    .navbarList {
+      .navItem {
+        align-items: center;
+        color: var(--color-heading-1);
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 0.4px;
+        padding: 15px 40px;
+        position: relative;
+        &.active {
+          background: var(--color-surface-2);
+          position: relative;
+        }
+        &.active::after {
+          content: '';
+          width: 100%;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          height: 4px;
+          background: var(--color-link-underline);
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,16 @@
+.dashboardMain {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-surface-1);
+  justify-content: center;
+  border-radius: 8px;
+  min-height: 430px;
+  .baseCurrency {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: baseline;
+    gap: 40px;
+    color: var(--color-heading-1);
+  }
+}

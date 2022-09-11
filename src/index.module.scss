@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 600;
+  min-height: 100vh;
+  background: var(--main-gradient);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+li, ul, {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  // Color
+  --color-heading: #FCFCFC;
+  --color-heading-1: #001e2b;
+  --color-paragraph-1: #42494f;
+  --color-link-underline: #21268F;
+  --color-bg-1: #847bc4;
+  --color-bg-2: #f6f6f6;
+  --color-surface-1:  #EBE0E9;
+  --color-surface-2:  #DCCCDB;
+  --main-gradient: linear-gradient(180deg, #E6D4DE 0%, #9890C7 100%);
+  // ProgressBar
+  --background-1: #fff;
+  --background-2: #f1f1f1;
+  --background-3: #a28089;
+  --background-4: #1a268a;
+  --background-5: #ffa8b6;
+  --background-6: #d0bdf4;
+  --background-7: #494d5f;
+  --box-shadow-1: 0 0 5px rgba(0, 0, 0, .2);
+  --box-shadow-2: inset 0 0 5px rgba(0, 0, 0, .2);
+
+  // Shadow
+  --box-shadow-10: 0 0 10px #9f9f9f;
+}

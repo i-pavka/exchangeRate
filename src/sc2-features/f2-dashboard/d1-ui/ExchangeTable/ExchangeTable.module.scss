@@ -1,0 +1,30 @@
+.tableMain {
+  display: flex;
+  justify-content: center;
+  word-wrap: break-word;
+  text-align: center;
+  color: var(--color-heading-1);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  padding: 5px;
+  .tableTitle {
+    margin-bottom: 5px;
+  }
+  .nameStyle {
+    text-align: left
+  }
+  th, td {
+    padding: 5px 10px;
+    vertical-align: middle;
+  }
+  tr:nth-child(2n) {
+    background: #e8edff;
+  }
+}
+
+
+
+
+
+

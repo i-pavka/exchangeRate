@@ -1,0 +1,42 @@
+.converterMain,
+.inputBlock,
+.convertResultWrapper,
+.convertResult {
+  display: flex;
+}
+
+.converterMain {
+  width: 100%;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  min-height: 350px;
+  background: var(--color-surface-1);
+  border-radius: 8px;
+  text-align: center;
+  .searchTip {
+    color: var(--color-heading-1);
+    margin-top: 30px;
+    & h3, p {
+      margin: 0;
+      padding: 0;
+    }
+    & p {
+      font-size: 24px;
+    }
+  }
+  .convertResultWrapper {
+    min-height: 100px;
+    align-items: center;
+    flex-direction: column;
+    .convertResult {
+      color: var(--color-paragraph-1);
+      align-items: center;
+      font-size: 20px;
+      min-height: 100px;
+    }
+    .spinnerStyle {
+      min-height: 100px;
+    }
+  }
+}
