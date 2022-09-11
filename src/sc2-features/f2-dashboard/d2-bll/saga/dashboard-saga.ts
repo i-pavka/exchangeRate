@@ -12,7 +12,7 @@ export function* loadingDashboardWorker() {
   try {
     yield put(toggleLoadingApp({isLoading: true}));
     const response: ResponseExchangeDataType = yield call(exchangeAPI.getLatestData, currencyBase)
-    yield delay(1000);
+    yield delay(500);
     yield put(setExchangeData({exchangeData: prepareData(response)}));
   } catch (error) {
     if (request.isAxiosError(error) && error.response) {
