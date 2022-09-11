@@ -28,6 +28,3 @@ export const useAppSelector: TypedUseSelectorHook<AppStateType> = useSelector;
 // type
 export type AppStateType = ReturnType<typeof rootReducer>;
 export type AppDispatchType = typeof store.dispatch;
-
-// @ts-ignore // ToDo: delete
-window.store = store;

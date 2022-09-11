@@ -14,6 +14,11 @@
 - **Base currency can be changed.**
 - **Can be converted from one currency to another.**
 
+
+## See demo
+App is hosted **[here](https://i-pavka.github.io/exchangeRate)**.
+
+
 Requirements
 ------------
 - Installed [Node.js](https://nodejs.org)
